@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(195, 0, 255, 0.498), gray);
+}
+
+#calendar{
+    display: flex;
+    text-align: center;
+}
+
+#dateAndDay{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#dateAndDay h1{
+    font-size: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0px;
+}
+
+#monthAndYear{
+    background-color: brown;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#monthAndYear h2{
+    line-height: 0px;
+}
